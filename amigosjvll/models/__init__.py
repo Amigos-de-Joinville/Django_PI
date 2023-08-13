@@ -1,4 +1,4 @@
-# from .animal import Animal
+from .animal import Animal
 from .especie import Especie
 # from .idade import Idade
 from .cor import Cor
