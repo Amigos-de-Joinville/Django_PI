@@ -1,10 +1,10 @@
 from django.contrib import admin
 
-from .models import Cor, Raca
+from .models import Cor, Raca, Apelido
 
 # admin.site.register(Animal)
 admin.site.register(Cor)
 # admin.site.register(Especie)
 # admin.site.register(Idade)
-# admin.site.register(Nome)
+admin.site.register(Apelido)
 admin.site.register(Raca)
