@@ -1,12 +1,21 @@
 from django.db import models
 
+from amigosjvll.models import Especie, Raca, Cor
+
 
 class Animal(models.Model):
     nome = models.CharField(max_length=255)
-    isbn = models.CharField(max_length=32, null=True, blank=True)
-    quantidade = models.IntegerField(default=0,  null=True, blank=True)
-    preco = models.DecimalField(max_digits=7, decimal_places=2, default=0, null=True, blank=True)
+    idade = models.DecimalField(max_digits=7, decimal_places=2, default=0, null=True, blank=True)
+    especie = models.ForeignKey(
+        Especie, on_delete=models.PROTECT, related_name="animais"
+    )
+    raca = models.ForeignKey(
+        Raca, on_delete=models.PROTECT, related_name="animais"
+    )
+    cor = models.ForeignKey(
+        Cor, on_delete=models.PROTECT, related_name="animais"
+    )
 
     def __str__(self):
-        return f"{self.titulo} ({self.quantidade})"
+        return f"{self.nome} {self.especie}"
     
