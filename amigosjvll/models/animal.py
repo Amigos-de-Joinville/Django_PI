@@ -4,6 +4,7 @@ from amigosjvll.models import Especie, Raca, Cor
 
 
 class Animal(models.Model):
+    id = models.BigAutoField(primary_key=True)
     nome = models.CharField(max_length=255)
     idade = models.DecimalField(max_digits=7, decimal_places=2, default=0, null=True, blank=True)
     especie = models.ForeignKey(
