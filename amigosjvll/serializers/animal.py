@@ -1,6 +1,4 @@
-from rest_framework.serializers import ModelSerializer
-
-from rest_framework.serializers import ModelSerializer, SlugRelatedField
+from rest_framework.serializers import ModelSerializer, SlugRelatedField, CharField
 
 # from uploader.models import Image
 # from uploader.serializers import ImageSerializer
@@ -33,7 +31,12 @@ class AnimalDetailSerializer(ModelSerializer):
 
 
 class AnimalListSerializer(ModelSerializer):
+    raca = CharField(source='raca.nome')  # OK
+    categoria = CharField(source='especie.descricao') # Mudar para especie
+
+    titulo = CharField(source='nome') # Mudar para nome
+    capa = CharField(source='imagem') # Mudar para imagem
     class Meta:
         model = Animal
-        fields = ["id", "especie", "raca"]
+        fields = ["id", "raca", "categoria", "capa", "titulo"] # colocar os nomes da model
 
