@@ -16,7 +16,7 @@ class Animal(models.Model):
     cor = models.ForeignKey(
         Cor, on_delete=models.PROTECT, related_name="animais"
     )
-    imagem = models.CharField(max_length=255)
+    foto = models.CharField(max_length=255)
 
     def __str__(self):
         return f"{self.nome} {self.especie}"

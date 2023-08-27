@@ -22,7 +22,6 @@ class AnimalSerializer(ModelSerializer):
 
 
 class AnimalDetailSerializer(ModelSerializer):
-    # capa = ImageSerializer(required=False)
     
     class Meta:
         model = Animal
@@ -32,11 +31,9 @@ class AnimalDetailSerializer(ModelSerializer):
 
 class AnimalListSerializer(ModelSerializer):
     raca = CharField(source='raca.nome')  # OK
-    categoria = CharField(source='especie.descricao') # Mudar para especie
-
-    titulo = CharField(source='nome') # Mudar para nome
-    capa = CharField(source='imagem') # Mudar para imagem
+    especie = CharField(source='especie.descricao') # Mudar para especie
+    
     class Meta:
         model = Animal
-        fields = ["id", "raca", "categoria", "capa", "titulo"] # colocar os nomes da model
+        fields = ["id", "raca", "especie", "foto", "nome"] # colocar os nomes da model
 
