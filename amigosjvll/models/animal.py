@@ -17,6 +17,7 @@ class Animal(models.Model):
         Cor, on_delete=models.PROTECT, related_name="animais"
     )
     foto = models.CharField(max_length=255)
+    descricao = models.CharField(max_length=500)
 
     def __str__(self):
         return f"{self.nome} {self.especie}"
