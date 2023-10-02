@@ -26,7 +26,6 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "drf_spectacular",
     "amigosjvll",
     "rest_framework",
     "django.contrib.staticfiles",
@@ -69,24 +68,24 @@ SECRET_KEY = "django-insecure-o^_2crba_4m46uodm!(n=py^mh#&3fvqmobql^x@2$33bzulpn
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 
-# if MODE in ["PRODUCTION", "MIGRATE"]:
-#     DATABASES = {
-#         "default": {
-#             "ENGINE": "django.db.backends.postgresql",
-#             "NAME": os.getenv("DATABASE_NAME"),
-#             "USER": os.getenv("DATABASE_USER"),
-#             "PASSWORD": os.getenv("DATABASE_PASSWORD"),
-#             "HOST": os.getenv("DATABASE_HOST"),
-#             "PORT": os.getenv("DATABASE_PORT"),
-#         }
-#     }
-# else:
-#     DATABASES = {
-#         "default": {
-#             "ENGINE": "django.db.backends.sqlite3",
-#             "NAME": BASE_DIR / "db.sqlite3",
-#         }
-#     }
+if MODE in ["PRODUCTION", "MIGRATE"]:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": os.getenv("DATABASE_NAME"),
+            "USER": os.getenv("DATABASE_USER"),
+            "PASSWORD": os.getenv("DATABASE_PASSWORD"),
+            "HOST": os.getenv("DATABASE_HOST"),
+            "PORT": os.getenv("DATABASE_PORT"),
+        }
+    }
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
+    }
 
 DATABASES = {
     "default": {
@@ -138,9 +137,9 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-REST_FRAMEWORK = {
-    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
-}
+# REST_FRAMEWORK = {
+#     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+# }
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Livraria API",
