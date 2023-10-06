@@ -1,6 +1,5 @@
-from pathlib import Path
 import os
-
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -64,13 +63,7 @@ TEMPLATES = [
     },
 ]
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-o^_2crba_4m46uodm!(n=py^mh#&3fvqmobql^x@2$33bzulpn"
-
 # Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
-
 if MODE in ["PRODUCTION", "MIGRATE"]:
     DATABASES = {
         "default": {
@@ -89,22 +82,8 @@ else:
             "NAME": BASE_DIR / "db.sqlite3",
         }
     }
-    
-
-print(MODE, DATABASES)
-
-
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
-
 
 # # Password validation
-# # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
@@ -120,17 +99,18 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-
 # Internationalization
-# https://docs.djangoproject.com/en/4.2/topics/i18n/
-
 LANGUAGE_CODE = "pt-br"
 TIME_ZONE = "America/Sao_Paulo"
 USE_I18N = True
 USE_TZ = True
 
+# App Uploader settings
 STATIC_URL = "/static/"
+MEDIA_URL = "http://localhost:8000/media/"
+MEDIA_ENDPOINT = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
+FILE_UPLOAD_PERMISSIONS = 0o640
 
 if MODE in ["PRODUCTION", "MIGRATE"]:
     CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
@@ -140,9 +120,7 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
         "whitenoise.storage.CompressedManifestStaticFilesStorage"
     )
 
-
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
 
 # REST_FRAMEWORK = {
 #     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
@@ -157,9 +135,3 @@ SPECTACULAR_SETTINGS = {
 CORS_ALLOW_ALL_ORIGINS = True
 
 print(MODE, DATABASES)
-
-if MODE == "PRODUCTION":
-    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-    STATICFILES_STORAGE = (
-        "whitenoise.storage.CompressedManifestStaticFilesStorage"
-    )
