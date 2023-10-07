@@ -63,6 +63,7 @@ TEMPLATES = [
         },
     },
 ]
+WSGI_APPLICATION = "config.wsgi.application"
 
 # Database
 if MODE in ["PRODUCTION", "MIGRATE"]:
