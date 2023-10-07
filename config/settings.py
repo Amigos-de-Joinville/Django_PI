@@ -9,7 +9,7 @@ MODE = os.getenv("MODE")
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv("SECRET_KEY")
+SECRET_KEY = os.getenv("SECRET_KEY", "e7q)w-bsn*h1^p4&u1rerv-&p6@sct44u@a_2w&d7t-8+9on9d")
 DEBUG = os.getenv("DEBUG", "False")
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "django.contrib.staticfiles",
     "corsheaders",
+    "uploader",
 ]
 
 MIDDLEWARE = [
@@ -126,9 +127,14 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 #     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 # }
 
+MEDIA_URL = "http://localhost:8000/media/"
+MEDIA_ENDPOINT = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
+FILE_UPLOAD_PERMISSIONS = 0o640
+
 SPECTACULAR_SETTINGS = {
     "TITLE": "Livraria API",
-    "DESCRIPTION": "API para gerenciamento de livraria, incluindo endpoints e documentação.",
+    "DESCRIPTION": "API para gerenciamento do site de adoção de animais, incluindo endpoints e documentação.",
     "VERSION": "1.0.0",
 }
 

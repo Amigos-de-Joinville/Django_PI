@@ -1,9 +1,11 @@
 from django.db import models
 
 from amigosjvll.models import Especie, Raca, Cor
+from uploader.models import Image
 
 
 class Animal(models.Model):
+    id = models.BigAutoField(primary_key=True)
     nome = models.CharField(max_length=255)
     idade = models.DecimalField(max_digits=7, decimal_places=2, default=0, null=True, blank=True)
     especie = models.ForeignKey(
@@ -15,7 +17,14 @@ class Animal(models.Model):
     cor = models.ForeignKey(
         Cor, on_delete=models.PROTECT, related_name="animais"
     )
-    foto = models.CharField(max_length=255)
+    foto = models.ForeignKey(
+        Image,
+        related_name="+",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        default=None,
+    )
     descricao = models.CharField(max_length=255)
 
     def __str__(self):
