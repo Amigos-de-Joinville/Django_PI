@@ -8,7 +8,7 @@ from amigosjvll.models import Animal
 
 class AnimalSerializer(ModelSerializer):
     capa_attachment_key = SlugRelatedField(
-        source="capa",
+        source="foto",
         queryset=Image.objects.all(),
         slug_field="attachment_key",
         required=False,
