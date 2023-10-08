@@ -23,7 +23,7 @@ class AnimalSerializer(ModelSerializer):
 
 class AnimalDetailSerializer(ModelSerializer):
     
-    foto = ImageSerializer(required=False)
+    foto = ImageSerializer(source="foto.url")
     
     class Meta:
         model = Animal
