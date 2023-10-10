@@ -121,6 +121,8 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
     STATICFILES_STORAGE = (
         "whitenoise.storage.CompressedManifestStaticFilesStorage"
     )
+    MEDIA_URL = '/media/' 
+
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
