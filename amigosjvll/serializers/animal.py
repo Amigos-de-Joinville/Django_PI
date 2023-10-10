@@ -23,7 +23,7 @@ class AnimalSerializer(ModelSerializer):
 
 class AnimalDetailSerializer(ModelSerializer):
     
-    foto = ImageSerializer(source="foto.url")
+    foto = CharField(source="foto.url")
     
     class Meta:
         model = Animal
@@ -32,6 +32,7 @@ class AnimalDetailSerializer(ModelSerializer):
 
 
 class AnimalListSerializer(ModelSerializer):
+    foto = CharField(source="foto.url")
     raca = CharField(source='raca.nome')  # OK
     especie = CharField(source='especie.descricao') # Mudar para especie
     
