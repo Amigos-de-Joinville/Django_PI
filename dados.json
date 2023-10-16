@@ -1,0 +1,1352 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-10-06T18:04:45.539Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Preto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-10-06T18:04:55.956Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Branco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-10-07T23:22:50.323Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "(Pastor Alemão)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-10-07T23:23:04.312Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "(Cachorro)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-10-07T23:23:16.626Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "PASTOR ALEMÃO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-10-07T23:25:35.500Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "(foto paloma - 1eb0e386-d539-4cdd-89ec-dc05e8c36fdb)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-10-07T23:26:19.838Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Paloma (Cachorro)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-10-08T22:17:53.596Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "(Foto lene - 1921b565-18b8-4e32-ab73-6dc7f31c8f74)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-10-08T22:18:16.504Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "VIRA LATA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-10-08T22:18:55.620Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Lene (Cachorro)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-10-12T16:34:05.760Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Paloma (Cachorro)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Foto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-10-12T16:34:34.526Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Mel (Gato)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-10-12T16:34:43.873Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Nina (Cachorro)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-10-12T16:35:03.658Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Kennie (Cachorro)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-10-12T16:35:30.315Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Calvin (Cachorro)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-10-16T13:47:17.328Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "(foto laila - fb7b02a4-89ec-499f-8e89-8fde630eaa46)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-10-16T13:47:48.308Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Laila (Cachorro)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add cor",
+    "content_type": 7,
+    "codename": "add_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change cor",
+    "content_type": 7,
+    "codename": "change_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete cor",
+    "content_type": 7,
+    "codename": "delete_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view cor",
+    "content_type": 7,
+    "codename": "view_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add especie",
+    "content_type": 8,
+    "codename": "add_especie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change especie",
+    "content_type": 8,
+    "codename": "change_especie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete especie",
+    "content_type": 8,
+    "codename": "delete_especie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view especie",
+    "content_type": 8,
+    "codename": "view_especie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add raca",
+    "content_type": 9,
+    "codename": "add_raca"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change raca",
+    "content_type": 9,
+    "codename": "change_raca"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete raca",
+    "content_type": 9,
+    "codename": "delete_raca"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view raca",
+    "content_type": 9,
+    "codename": "view_raca"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add animal",
+    "content_type": 10,
+    "codename": "add_animal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change animal",
+    "content_type": 10,
+    "codename": "change_animal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete animal",
+    "content_type": 10,
+    "codename": "delete_animal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view animal",
+    "content_type": 10,
+    "codename": "view_animal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$gxzHbgn2GkISsUhzblMRvT$p8LFuo2V4jO1PALTcSkfRYdltvym0g6hJpykNYaOLfc=",
+    "last_login": "2023-10-16T13:46:14.212Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-06T17:59:51.049Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "amigosjvll",
+    "model": "cor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "amigosjvll",
+    "model": "especie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "amigosjvll",
+    "model": "raca"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "amigosjvll",
+    "model": "animal"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4fdkfm50her79xoaavnuzwg7ko73f4sq",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllexzGEkp4zWPsLDiBbipMKcXeIlALaNzPvZRKuS05r0zlNYs4GzOF3I-SHlg3IHcutWq5lmSeym2J32uy1ij4vu_t3kLHlbx0COhDyeBpUqItRCdGDI9LhGMLoPXQONIAwj9H1jpUdIlDPPoiCeX8A9YI4hA:1qqH2c:sXJ-ppmRN1zcdBN4Y0zngakkjd72QQjNQHx0guMEvmI",
+    "expire_date": "2023-10-24T18:01:10.105Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7nipbohcg1xrb6qjubw2ncr4c14zwz4v",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCGaSC4dO8ZCDMMUjWQlHZlvLs26UK3_733Xyqmba1xG7LEOauzAnX63SjxQ9oO8j21W9fc27rMpHdFH3Toa8_yvBzu30FNo35rTICE7DJwcSIC4oNkEvZIRshOFjAEQQ7WT8GQg2JcAAvMrqB49f4AAXM4LQ:1qsNvC:oB2Yn4em_xxipBhWlJlQbGQhmzD9fKF6ZO6pX130pnA",
+    "expire_date": "2023-10-30T13:46:14.329Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q6etfgd236hsbisuoixeow6qj5ffc2ps",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllexzGEkp4zWPsLDiBbipMKcXeIlALaNzPvZRKuS05r0zlNYs4GzOF3I-SHlg3IHcutWq5lmSeym2J32uy1ij4vu_t3kLHlbx0COhDyeBpUqItRCdGDI9LhGMLoPXQONIAwj9H1jpUdIlDPPoiCeX8A9YI4hA:1qqybA:75H0fFQt1vGjMsE-ROJLTCxHkAN58Zsc_sfyUvQKn8Q",
+    "expire_date": "2023-10-26T16:31:44.142Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x0ivcnes2cmfnjbedem64m7t8qo9ewv1",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllexzGEkp4zWPsLDiBbipMKcXeIlALaNzPvZRKuS05r0zlNYs4GzOF3I-SHlg3IHcutWq5lmSeym2J32uy1ij4vu_t3kLHlbx0COhDyeBpUqItRCdGDI9LhGMLoPXQONIAwj9H1jpUdIlDPPoiCeX8A9YI4hA:1qpGd3:X1ZpKgep0bQfmz_UPWHtJ0DYx4WDx10ngAw-YV3pXO0",
+    "expire_date": "2023-10-21T23:22:37.355Z"
+  }
+},
+{
+  "model": "amigosjvll.especie",
+  "pk": 1,
+  "fields": {
+    "descricao": "Cachorro"
+  }
+},
+{
+  "model": "amigosjvll.especie",
+  "pk": 2,
+  "fields": {
+    "descricao": "Gato"
+  }
+},
+{
+  "model": "amigosjvll.cor",
+  "pk": 1,
+  "fields": {
+    "descricao": "Preto"
+  }
+},
+{
+  "model": "amigosjvll.cor",
+  "pk": 2,
+  "fields": {
+    "descricao": "Branco"
+  }
+},
+{
+  "model": "amigosjvll.cor",
+  "pk": 3,
+  "fields": {
+    "descricao": "Amarelo"
+  }
+},
+{
+  "model": "amigosjvll.cor",
+  "pk": 4,
+  "fields": {
+    "descricao": "Tricolor"
+  }
+},
+{
+  "model": "amigosjvll.cor",
+  "pk": 5,
+  "fields": {
+    "descricao": "Cinza"
+  }
+},
+{
+  "model": "amigosjvll.cor",
+  "pk": 6,
+  "fields": {
+    "descricao": "Laranja"
+  }
+},
+{
+  "model": "amigosjvll.cor",
+  "pk": 7,
+  "fields": {
+    "descricao": "Bicolor"
+  }
+},
+{
+  "model": "amigosjvll.cor",
+  "pk": 8,
+  "fields": {
+    "descricao": "Marrom"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 1,
+  "fields": {
+    "nome": "Pastor alemão",
+    "nacionalidade": "Alemanha"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 2,
+  "fields": {
+    "nome": "SRD",
+    "nacionalidade": "Indefinida"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 3,
+  "fields": {
+    "nome": "Bulldog Francês",
+    "nacionalidade": "França"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 4,
+  "fields": {
+    "nome": "Rottweiler",
+    "nacionalidade": "Alemanha"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 5,
+  "fields": {
+    "nome": "Lulu da Pomerânia",
+    "nacionalidade": "Alemanha"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 6,
+  "fields": {
+    "nome": "Yorkshire Terrier",
+    "nacionalidade": "Inglaterra"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 7,
+  "fields": {
+    "nome": "Shih Tzu",
+    "nacionalidade": "China"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 8,
+  "fields": {
+    "nome": "Beagle",
+    "nacionalidade": "Reino Unido"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 9,
+  "fields": {
+    "nome": "Persa",
+    "nacionalidade": "Irã"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 10,
+  "fields": {
+    "nome": "Siamês",
+    "nacionalidade": "Tailândia"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 11,
+  "fields": {
+    "nome": "Maine Coon",
+    "nacionalidade": "Estados Unidos"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 12,
+  "fields": {
+    "nome": "Angorá",
+    "nacionalidade": "Turquia"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 13,
+  "fields": {
+    "nome": "Sphynx",
+    "nacionalidade": "Toronto"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 14,
+  "fields": {
+    "nome": "Ragdoll",
+    "nacionalidade": "Califórnia"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 15,
+  "fields": {
+    "nome": "American Shorthair",
+    "nacionalidade": "Estados Unidos"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 16,
+  "fields": {
+    "nome": "Maltês",
+    "nacionalidade": "Malta"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 17,
+  "fields": {
+    "nome": "Pitbull",
+    "nacionalidade": ""
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 18,
+  "fields": {
+    "nome": "Husky",
+    "nacionalidade": "Sibéria"
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 19,
+  "fields": {
+    "nome": "Labrador",
+    "nacionalidade": ""
+  }
+},
+{
+  "model": "amigosjvll.raca",
+  "pk": 20,
+  "fields": {
+    "nome": "Sharpei",
+    "nacionalidade": "China"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 1,
+  "fields": {
+    "nome": "Paloma",
+    "idade": "3.00",
+    "especie": 1,
+    "raca": 1,
+    "cor": 1,
+    "foto": 1,
+    "descricao": "cadela muito dócil e amigável, não morde nem faz bagunça"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 2,
+  "fields": {
+    "nome": "Lene",
+    "idade": "9.00",
+    "especie": 1,
+    "raca": 2,
+    "cor": 1,
+    "foto": 2,
+    "descricao": "Super meiga e amorosa, faz xixi apenas na pedra."
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 3,
+  "fields": {
+    "nome": "Filhota",
+    "idade": "3.00",
+    "especie": 2,
+    "raca": 15,
+    "cor": 7,
+    "foto": 4,
+    "descricao": "Muito meiga e carinhosa!!!"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 4,
+  "fields": {
+    "nome": "Thor",
+    "idade": "4.00",
+    "especie": 1,
+    "raca": 17,
+    "cor": 7,
+    "foto": 5,
+    "descricao": "bem alegre e agitado"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 5,
+  "fields": {
+    "nome": "Brahma",
+    "idade": "2.00",
+    "especie": 1,
+    "raca": 16,
+    "cor": 2,
+    "foto": 6,
+    "descricao": "muito timida, odeia visitas"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 6,
+  "fields": {
+    "nome": "Lua",
+    "idade": "5.00",
+    "especie": 1,
+    "raca": 1,
+    "cor": 1,
+    "foto": 7,
+    "descricao": "Adora brincar"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 7,
+  "fields": {
+    "nome": "Mel",
+    "idade": "2.00",
+    "especie": 2,
+    "raca": 12,
+    "cor": 1,
+    "foto": 9,
+    "descricao": "Carinhosa e dorminhoca"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 9,
+  "fields": {
+    "nome": "Levi e Hakan",
+    "idade": "3.00",
+    "especie": 1,
+    "raca": 18,
+    "cor": 2,
+    "foto": 10,
+    "descricao": "Dupla de irmãos pra lá de brincalhões!!!!!"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 10,
+  "fields": {
+    "nome": "Kennie",
+    "idade": "1.00",
+    "especie": 1,
+    "raca": 19,
+    "cor": 3,
+    "foto": 11,
+    "descricao": "Filhote muito fofo"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 12,
+  "fields": {
+    "nome": "Trix",
+    "idade": "1.00",
+    "especie": 2,
+    "raca": 2,
+    "cor": 4,
+    "foto": 12,
+    "descricao": "muito pitchuca"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 13,
+  "fields": {
+    "nome": "Nina",
+    "idade": "1.00",
+    "especie": 1,
+    "raca": 20,
+    "cor": 8,
+    "foto": 1,
+    "descricao": "Personalidade forte, muito ciumenta com outros animais"
+  }
+},
+{
+  "model": "amigosjvll.animal",
+  "pk": 16,
+  "fields": {
+    "nome": "Laila",
+    "idade": "2.00",
+    "especie": 1,
+    "raca": 10,
+    "cor": 2,
+    "foto": 15,
+    "descricao": "cachorra muito fofa"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "1eb0e386-d539-4cdd-89ec-dc05e8c36fdb",
+    "public_id": "05f281b8-0038-4b61-91ae-4d54ee044463",
+    "file": "images/05f281b8-0038-4b61-91ae-4d54ee044463.jpg",
+    "description": "foto paloma",
+    "uploaded_on": "2023-10-07T23:25:35.499Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "1921b565-18b8-4e32-ab73-6dc7f31c8f74",
+    "public_id": "1c1facf9-22f0-4b4a-883f-98e62c452e9b",
+    "file": "images/1c1facf9-22f0-4b4a-883f-98e62c452e9b.jpg",
+    "description": "Foto lene",
+    "uploaded_on": "2023-10-08T22:17:53.595Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "96e81254-b4e4-41b3-8d1f-a6a8af09c25d",
+    "public_id": "a17e10e5-058f-421c-854f-e25a42a88815",
+    "file": "images/a17e10e5-058f-421c-854f-e25a42a88815.jpg",
+    "description": "Muito carinhosa e educada, só faz xixi na caixinha de areia",
+    "uploaded_on": "2023-10-09T13:16:55.397Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "0f415d73-e04d-44b2-8dbe-e193721b9334",
+    "public_id": "42baf10e-3e79-4e50-9f14-238fca77e9f7",
+    "file": "images/42baf10e-3e79-4e50-9f14-238fca77e9f7.jpg",
+    "description": "gata 1",
+    "uploaded_on": "2023-10-09T13:17:59.002Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "785a0baa-c795-47fd-8987-63bcf2bd3e2f",
+    "public_id": "d2591be6-bf81-4aab-949e-1fa7252211fb",
+    "file": "images/d2591be6-bf81-4aab-949e-1fa7252211fb.jpg",
+    "description": "Thor",
+    "uploaded_on": "2023-10-09T13:24:57.621Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 6,
+  "fields": {
+    "attachment_key": "a478afbe-1054-4e56-9c12-3a712d982f06",
+    "public_id": "b0193f4d-6a21-41ac-a0c2-6959f6c6196e",
+    "file": "images/b0193f4d-6a21-41ac-a0c2-6959f6c6196e.jpg",
+    "description": "brahma",
+    "uploaded_on": "2023-10-09T13:29:50.769Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 7,
+  "fields": {
+    "attachment_key": "c01d1b1b-3373-4f8f-9820-20320368d27b",
+    "public_id": "eca820f6-fcc5-418d-924b-41ccb2e202f7",
+    "file": "images/eca820f6-fcc5-418d-924b-41ccb2e202f7.jpg",
+    "description": "lua",
+    "uploaded_on": "2023-10-09T13:31:51.309Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 8,
+  "fields": {
+    "attachment_key": "39d9d6aa-4a52-4ad7-b70d-e27deda940c8",
+    "public_id": "a79c4022-8e29-4725-aaf7-d8f351761e52",
+    "file": "images/a79c4022-8e29-4725-aaf7-d8f351761e52.jpg",
+    "description": "Mellua",
+    "uploaded_on": "2023-10-09T13:33:49.999Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 9,
+  "fields": {
+    "attachment_key": "83cb199b-e8d3-4cff-9b77-79d7d91e5405",
+    "public_id": "ba0deff0-2422-4daa-a5e9-accb7844a049",
+    "file": "images/ba0deff0-2422-4daa-a5e9-accb7844a049.jpg",
+    "description": "mel",
+    "uploaded_on": "2023-10-09T13:34:05.479Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 10,
+  "fields": {
+    "attachment_key": "5edb8a15-91d2-4fe3-8175-b68205836550",
+    "public_id": "319b3b1c-9ce8-4294-a633-da75966c54a7",
+    "file": "images/319b3b1c-9ce8-4294-a633-da75966c54a7.jpg",
+    "description": "LeviHakan",
+    "uploaded_on": "2023-10-09T13:37:38.124Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 11,
+  "fields": {
+    "attachment_key": "bc551d03-c237-4764-b74e-f181a438e456",
+    "public_id": "734e2e06-d165-427a-93a6-40924dd4ab79",
+    "file": "images/734e2e06-d165-427a-93a6-40924dd4ab79.jpg",
+    "description": "Kennie",
+    "uploaded_on": "2023-10-09T13:41:32.013Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 12,
+  "fields": {
+    "attachment_key": "7dcb9be8-38f1-4f1b-a4ea-98736bdbaf92",
+    "public_id": "2f0f9269-4017-4c37-bcd0-a4777d30c650",
+    "file": "images/2f0f9269-4017-4c37-bcd0-a4777d30c650.jpg",
+    "description": "Trix",
+    "uploaded_on": "2023-10-09T13:44:06.121Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 13,
+  "fields": {
+    "attachment_key": "5c29dae3-286e-4748-abf2-ce3b4dfcf67c",
+    "public_id": "3b9d889c-38dc-4884-8ae5-a60be07c9962",
+    "file": "images/3b9d889c-38dc-4884-8ae5-a60be07c9962.jpg",
+    "description": "NIna",
+    "uploaded_on": "2023-10-09T13:47:23.320Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 14,
+  "fields": {
+    "attachment_key": "f77126d5-61f2-4954-8e55-b180493f99c1",
+    "public_id": "b3e627ad-de94-4eb2-8ede-66dfc4f97282",
+    "file": "images/b3e627ad-de94-4eb2-8ede-66dfc4f97282.jpg",
+    "description": "calvin",
+    "uploaded_on": "2023-10-09T13:50:33.293Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 15,
+  "fields": {
+    "attachment_key": "fb7b02a4-89ec-499f-8e89-8fde630eaa46",
+    "public_id": "9f42e0e8-5e7f-4d35-a634-240808e68105",
+    "file": "images/9f42e0e8-5e7f-4d35-a634-240808e68105.jpg",
+    "description": "foto laila",
+    "uploaded_on": "2023-10-16T13:47:17.327Z"
+  }
+}
+]
