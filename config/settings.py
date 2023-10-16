@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODE = os.getenv("PRODUCTION")
+MODE = os.getenv("MODE")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -109,7 +109,6 @@ USE_TZ = True
 
 # App Uploader settings
 STATIC_URL = "/static/"
-MEDIA_URL = "http://localhost:8000/media/"
 MEDIA_ENDPOINT = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640
@@ -134,11 +133,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 #     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 # }
 
-MEDIA_URL = "http://localhost:8000/media/"
-MEDIA_ENDPOINT = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
-FILE_UPLOAD_PERMISSIONS = 0o640
-
 SPECTACULAR_SETTINGS = {
     "TITLE": "Livraria API",
     "DESCRIPTION": "API para gerenciamento do site de adoção de animais, incluindo endpoints e documentação.",
@@ -147,4 +141,4 @@ SPECTACULAR_SETTINGS = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-print(MODE, DATABASES)
+print(MODE, MEDIA_URL, DATABASES)
