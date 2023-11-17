@@ -9,7 +9,9 @@ MODE = os.getenv("MODE")
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv("SECRET_KEY", "e7q)w-bsn*h1^p4&u1rerv-&p6@sct44u@a_2w&d7t-8+9on9d")
+SECRET_KEY = os.getenv(
+    "SECRET_KEY", "e7q)w-bsn*h1^p4&u1rerv-&p6@sct44u@a_2w&d7t-8+9on9d"
+)
 DEBUG = os.getenv("DEBUG", "False")
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
@@ -25,12 +27,15 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "amigosjvll",
     "rest_framework",
     "django.contrib.staticfiles",
     "corsheaders",
     "uploader",
     "cloudinary",
+    "usuario",
+    "drf_spectacular",
+    "rest_framework_simplejwt",
+    "amigosjvll"
 ]
 
 MIDDLEWARE = [
@@ -118,23 +123,30 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
     CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
     DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
     STATIC_ROOT = os.path.join(BASE_DIR, "static")
-    STATICFILES_STORAGE = (
-        "whitenoise.storage.CompressedManifestStaticFilesStorage"
-    )
-    MEDIA_URL = '/media/' 
-else:     
+    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+    MEDIA_URL = "/media/"
+else:
     MY_IP = os.getenv("MY_IP", "127.0.0.1")
     MEDIA_URL = f"http://{MY_IP}:19003/media/"
 
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# REST_FRAMEWORK = {
-#     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
-# }
+REST_FRAMEWORK = {
+    # "DEFAULT_AUTHENTICATION_CLASSES": (
+    #     "rest_framework_simplejwt.authentication.JWTAuthentication",
+    # ),
+    # "DEFAULT_PERMISSION_CLASSES": [
+    #     "rest_framework.permissions.DjangoModelPermissions",
+    # ],
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
 
 SPECTACULAR_SETTINGS = {
-    "TITLE": "Livraria API",
+    "TITLE": "Adoção API",
     "DESCRIPTION": "API para gerenciamento do site de adoção de animais, incluindo endpoints e documentação.",
     "VERSION": "1.0.0",
 }
@@ -142,3 +154,5 @@ SPECTACULAR_SETTINGS = {
 CORS_ALLOW_ALL_ORIGINS = True
 
 print(MODE, MEDIA_URL, DATABASES)
+
+AUTH_USER_MODEL = "usuario.Usuario"
